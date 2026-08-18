@@ -24,7 +24,7 @@
 .sidebar ul {
     list-style-type: none;
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2rem;
     color: white;
 }
@@ -33,6 +33,7 @@
     margin-bottom: 1.5rem;
     padding-left: 2rem;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
@@ -45,19 +46,19 @@
 
 .sb-dashboard{
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.7rem;
     color: white;
-    padding-left: 2rem;
+    padding-left: calc(2rem + 1.3rem / 2 - 2.2rem / 2);
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: calc(1rem - 1.3rem / 2);
 }
 
 .sb-dashboard svg {
     fill: white;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 .sidebar {
